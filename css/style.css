@@ -235,6 +235,16 @@ margin-top: 10px;
 
 }
 @media only screen and (max-width: 210px) {
+header {
+    text-align: left;
+    background-color: #808080;
+    color: #000;
+    padding: 0.9em;
+    font-family: "Marck Script";
+    text-shadow: 0px 0px 4px;
+    font-size: 24px;
+}
+
 #year {
 text-align: left;
 }
@@ -243,23 +253,24 @@ li {
     float: left;
     padding: 6px;
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 13px;
 }
 .tab-triggers {
 margin-top: -30px;
 background-color: rgba(230, 43, 29, 0.41);
 float: left;
-height: 82px;
+height: 58px;
 width: 100%;
 }
 .wrapper {
     width: 250px;
 }
 .panel {
-font-size: 20px;
+font-size: 15px;
 margin-left: -27px;
+height: 687px;
+width: 162px;
 margin-top: 1px;
-height: 758px;
 }
 .ss-q-title {
 margin-top: 362px;
@@ -303,6 +314,7 @@ margin-top: -14px;
 }
 .ss-sacalenumber{
 margin-left: 20px;
+
 
 }
 
