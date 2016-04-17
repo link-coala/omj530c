@@ -27,9 +27,12 @@ footer{
 li:nth-child(3),:nth-child(2){
   margin-top: 30px;
 }
-li{
-  font-size: 40px;
-  list-style-type: none;
+li {
+    font-size: 40px;
+    list-style-type: none;
+    font-family: Alegreya;
+    margin-top: 30px;
+    margin-left: 12px;
 }
 * {
   margin: 0;
