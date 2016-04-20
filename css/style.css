@@ -59,11 +59,16 @@ margin-top: 300px;
  width: 25%;}
 
 body {
-  background-color: white;
-  font-size: 62.5%;
-  padding: 0;
-  margin: 0;
+  -webkit-animation: mymove 9s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 3s infinite;  
 }
+@keyframes mymove {
+    from {background-color: #B8EFFF;}
+    to {background-color: #E8E5A2;}
+    to {background-color: #FFC4C5;}
+   to {background-color: #58A7E8;}
+}
+
 .wrapper {
   width: 670px;
   font-size: 1.6em;
@@ -96,9 +101,6 @@ header {
 }
 .wrapper {
     font-size: 1.6em;
-}
-body {
-    font-size: 62.5%;
 }
 main {
   padding: 2em;
