@@ -16,9 +16,9 @@ p {
 .uniq{
   height: 600px;
 }
-.dsp{
- height: 113px;   
- letter-spacing: 2px;
+.dsp {
+    height: 231px;
+    letter-spacing: 2px;
 }
 footer{
   font-size: 60px;
