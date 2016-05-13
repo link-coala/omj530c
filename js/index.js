@@ -10,3 +10,9 @@ var app = angular.module('tabs', []); // initilizing the angular app
     return this.tab === checkTab;
   };
 });
+var text = '{"last":"  proximamente voy a publicar la primera edicion de la segunda parte de este proyecto una publicación regular de suscripción que se distribuira unicamente por correo usando mailchimp y todas las herramientas que ofrece, si tu quieres  conocerla cuando este lista por favor llena el siguiente formulario "}';
+
+var obj = JSON.parse(text);
+
+document.getElementById("demo").innerHTML =
+obj.last ;
