@@ -63,10 +63,10 @@ body {
     animation: mymove 3s infinite;  
 }
 @keyframes mymove {
-    from {background-color: #B8EFFF;}
-    to {background-color: #E8E5A2;}
-    to {background-color: #FFC4C5;}
-   to {background-color: #58A7E8;}
+    from {background-color: #FFEABC;}
+    to {background-color: #F1E1B9;}
+    to {background-color: #FFF2C9;}
+   to {background-color: #E8DCAB;}
 }
 
 .wrapper {
@@ -199,7 +199,7 @@ margin-left: 156px;
 }
 .jfk-button.jfk-button-action{
 
-  position: relative;
+position: relative;
 float: left;
 width: 145px;
 margin-top: 10px;
