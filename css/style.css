@@ -28,11 +28,13 @@ li:nth-child(3),:nth-child(2){
   margin-top: 30px;
 }
 li {
-    font-size: 40px;
+    font-size: 51px;
     list-style-type: none;
     font-family: Alegreya;
     margin-top: 30px;
     margin-left: 12px;
+    font-family: "Teko",sans-serif;
+    color: rgba(95, 46, 46, 1);
 }
 * {
   margin: 0;
@@ -53,10 +55,13 @@ margin-top: 300px;
 }
 .tab-triggers{
  margin-top: -30px;
- background-color: rgba(230, 43, 29, 0.41);
+ background-color: rgba(255, 255, 255, 0.41);
  float: left;
  height: 600px;
- width: 25%;}
+ width: 25%;
+  border-right:2px dashed blue;
+    border-bottom:2px dashed blue;
+}
 
 body {
   -webkit-animation: mymove 9s infinite; /* Chrome, Safari, Opera */
@@ -89,7 +94,7 @@ element {
 header {
     text-align: left;
     background-color: #808080;
-    color: #000;
+    color: #FFF;
     padding: 0.9em;
     font-family: "Marck Script";
     text-shadow: 0px 0px 4px;
@@ -176,9 +181,10 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-.ss-q-title{
-  font-size: 1.6em;
-  text-align: center;
+.ss-q-title {
+    font-size: 1.6em;
+    text-align: center;
+    font-family: "Marck Script";
 }
 .ss-q-short{
 display: block;
