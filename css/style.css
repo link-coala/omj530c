@@ -19,6 +19,7 @@ p {
 .dsp {
     height: 231px;
     letter-spacing: 2px;
+    font-family: "Alegreya",serif;
 }
 footer{
   font-size: 60px;
@@ -203,20 +204,20 @@ margin-left: 156px;
   display: none;
 
 }
-.jfk-button.jfk-button-action{
-
-position: relative;
-float: left;
-width: 145px;
-margin-top: 10px;
-background: none repeat scroll 0% 0% #3498DB;
-color: #FFF;
-font-weight: 400;
-text-shadow: 1px 1px 0px #2D7BAF;
-box-shadow: 0px 3px 0px #2D7BAF;
-transition: all 0.3s ease-in-out 0s;
-margin-left: 300px;
-padding: 7px;
+.jfk-button.jfk-button-action {
+    position: relative;
+    float: left;
+    width: 145px;
+    margin-top: 35px;
+    background: none repeat scroll 0% 0% rgba(236, 209, 65, 0.53);
+    color: rgba(80, 24, 24, 1);
+    font-weight: 419;
+    text-shadow: 1px 1px 0px rgba(199, 218, 106, 1);
+    box-shadow: 0px 3px 0px rgba(193, 227, 20, 1);
+    transition: all 0.3s ease-in-out 0s;
+    margin-left: 300px;
+    padding: 17px;
+    font-size: 21px;
 }
 .ss-choice-label{
 font-size: 26px;
