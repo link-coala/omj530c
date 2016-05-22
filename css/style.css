@@ -19,6 +19,12 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+#lefthead {
+position: relative;
+left: 328px;
+bottom: 189px;
+
+}
 p {
     padding: 0px 0px 1em;
     font-family: "Teko",sans-serif;
@@ -115,6 +121,7 @@ header {
     font-family: "Marck Script";
     text-shadow: 0px 0px 4px;
     font-size: 41px;
+    height: 213px;
 }
 * {
     margin: 0px;
