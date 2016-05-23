@@ -66,6 +66,7 @@ li {
   font-size: 25px;
 	 font-family: 'Alegreya', serif;
    margin-left: 65px;
+   width: 480px;
 }
 .frm{
   height: 800px;
@@ -101,6 +102,10 @@ body {
   font-size: 1.6em;
   margin: 0 auto;
   background-color: rgba(45, 47, 45, 0.14);
+  font-size: 1.6em;
+  overflow: hidden;
+
+}
 }
 p {
  padding: 0 0 1em 0;
@@ -111,8 +116,7 @@ p {
 ul {
   padding-left: 50px;
 }
-element {
-}
+
 header {
     text-align: left;
     background-color: #808080;
@@ -127,9 +131,7 @@ header {
     margin: 0px;
     padding: 0px;
 }
-.wrapper {
-    font-size: 1.6em;
-}
+
 main {
   padding: 2em;
   position: relative;
@@ -165,10 +167,7 @@ main {
   float: left;
   width: 550px;
 }
-.wrapper {
-  /* Hide the aside sidebar overflow */
-  overflow: hidden;
-}
+
 footer {
   clear: both;
   background-color: rgba(45, 47, 45, 0.14);
@@ -268,7 +267,8 @@ margin-left: 160px;
 margin-top: 10px;
 
 }
-@media only screen and (max-width: 210px) {
+@media only screen and (max-width: 510px) {
+
 header {
     text-align: left;
     background-color: #808080;
@@ -277,6 +277,7 @@ header {
     font-family: "Marck Script";
     text-shadow: 0px 0px 4px;
     font-size: 24px;
+    height: 41px;
 }
 
 #year {
@@ -297,13 +298,15 @@ height: 58px;
 width: 100%;
 }
 .wrapper {
-    width: 250px;
+    width: 100%;
+    margin-top: -30px;
+    height: 1867px;
 }
 .panel {
 font-size: 15px;
-margin-left: -27px;
-height: 687px;
-width: 162px;
+margin-left: -23px;
+height: 557px;
+width: 226px;
 margin-top: 1px;
 }
 .ss-q-title {
@@ -319,7 +322,7 @@ margin-left: 10px;
 .jfk-button.jfk-button-action {
 width: 145px;
 margin-top: 10px;
-margin-left: 267px;
+margin-left: 72px;
 padding: 17px;
 }
 .ss-q-radio {
@@ -331,8 +334,8 @@ margin-top: 22px;
 
  }
 #dos {
-margin-left: -15px;
-margin-top: 68px;
+margin-left: 16px;
+margin-top: 352px;
 
  .ss-choice-label {
  font-size: 26px;
